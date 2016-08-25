@@ -1,0 +1,29 @@
+﻿Build started 28/03/2016 00:18:19.
+     1>Project "C:\Users\Joao\Desktop\Entregaveis\Projeto - Lista\Projeto\Projeto\Projeto.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\Projeto.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\Projeto.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt LISTA.C TESTLIS.C
+         LISTA.C
+         TESTLIS.C
+     1>TESTLIS.C(214): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>TESTLIS.C(249): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joao\Desktop\Entregaveis\Projeto - Lista\Projeto\Release\Projeto.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Projeto.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Joao\Desktop\Entregaveis\Projeto - Lista\Projeto\Release\Projeto.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joao\Desktop\Entregaveis\Projeto - Lista\Projeto\Release\Projeto.lib" /MACHINE:X86 Release\LISTA.obj
+         Release\TESTLIS.obj
+         ArcaboucoTeste.lib
+         Generating code
+         Finished generating code
+         Projeto.vcxproj -> C:\Users\Joao\Desktop\Entregaveis\Projeto - Lista\Projeto\Release\Projeto.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Joao\Desktop\Entregaveis\Projeto - Lista\Projeto\Release\Projeto.exe;#1" /manifest Release\Projeto.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Projeto.unsuccessfulbuild".
+         Touching "Release\Projeto.lastbuildstate".
+     1>Done Building Project "C:\Users\Joao\Desktop\Entregaveis\Projeto - Lista\Projeto\Projeto\Projeto.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.89

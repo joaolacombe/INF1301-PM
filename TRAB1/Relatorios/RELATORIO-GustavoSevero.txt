@@ -1,0 +1,10 @@
+Data	   Horas Trabalhadas,	 Tipo Tarefa,	 			Descrição da Tarefa Realizada
+
+13/03/16   4			 Estudar 	 			Instalacao e utilizacao do arcabouco de teste
+14/03/16   3			 Estudar	 			Estudo do modulo arvore do arcabouco de teste
+15/03/16   3			 Projetar 				Especificacao das alteracoes nos modulos
+17/03/16   3			 Estudar	 			Estudo do modulo lista do arcabouco de teste
+20/03/16   2			 Programar				Alteracoes no modulo lista
+22/03/16   2			 Executavel				Criacao do construto
+27/03/16   1			 Realizacao do Testes			Tesde do exe e remocao de dependencias
+28/03/16   4			 Documentacao				Documentacao e leiame do projeto

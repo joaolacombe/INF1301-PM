@@ -1,0 +1,15 @@
+Data            Horas Trabalhadas       Tipo Tarefa                                                                                     Descrição da Tarefa Realizada
+13/03/2016	1 hora e 40 minutos	Estudar												Configuração de ambiente e estudo do funcionamento do Arcabouço.
+15/03/2016	5 horas e 10 minutos	Estudar												Instalação Arcabouço(gerando Arcabouco.lib)
+15/03/2016	4 horas e 6 minutos	Especificar Funções										Definindo funções do módulo Arvore
+18/03/2016	1 hora 			Revisar Especificações										Redefinindo funções do módulo Arvore e divisão de tarefas.
+20/03/2016	1 hora e 30 minutos	Estudar												Estudo do funcionamento do teste com Arcabouço: quais artefatos necessários, geração do executável, geração do teste.bat.
+21/03/2016	30 minutos		Estudar												Estudando geração de script a partir do script do módulo ARVORE.
+22/03/2016	2 horas			Estudar												Estudando geração de script a partir do script do módulo LISTA.
+23/03/2016	1 hora e 10 minutos	Revisar Código do Módulo									Revisando ARVORE.C / ARVORE.H
+23/03/2016	1 hora e 20 minutos	Revisar Código do Módulo                                                                        Revisando TESTARV.C
+24/03/2016	3 horas e 30 minutos	Codificar Módulo										ARVORE.C
+25/03/2016	1 hora e 10 minutos	Revisar Código do Módulo									Revisando ARVORE.C 
+26/03/2016	1 hora			Revisar script de teste						                                Revisando TesteLista.script
+26/03/2016	1 hora			Revisar script de teste							                        Revisando script TesteArvore
+27/03/2016	3 hora			Revisar entregavel							                        Revisando todos os modulos, scripts de teste e documentacao do projeto

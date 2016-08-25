@@ -1,0 +1,47 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB1-2
+!!!      Script de teste:     TesteArvore.script
+
+!!!    0  Linha:     1  // Script:    TesteArvore.script 
+!!!    0  Linha:     2  // Autor:     Arndt von Staa 
+!!!    0  Linha:     3  // Data:      20/fev/2006 
+!!!    0  Linha:     4  // Propósito: Ilustrar arquivo de script, 
+!!!    0  Linha:     5  //            Testa a construção de uma árvore usando parâmetros literais 
+!!!    0  Linha:     6  //            Não verifica se as operações modificaram corretamente as referências 
+!!!    0  Linha:     7  //            Este script é muito superficial !!! 
+!!!    0  Linha:     8  // 
+   10  == Inicializar valores
+   35  == Criar a lista 0
+   38  == Verificar ObterValor relativo a lista vazia
+   41  == Inserir elemento na lista0, atualmente vazia
+   45  == Inserir elemento na lista0 após primeiro
+   49  == Inserir elemento na lista0 antes do último
+   53  == Criar a lista1 com dois elementos
+   58  == Criar uma lista2 com quatro elementos
+   65  == Criar árvores 0, 1 e 2
+   70  == Arvore2, inserindo lista0 a direita, verifica lista
+   74  == Arvore2, inserindo lista1 a esquerda, verifica lista
+   78  == Arvore1, inserindo lista1 a direita, verifica lista
+   82  == Arvore1, inserindo lista2 a esquerda, verifica lista
+   86  == Arvore1, Destroi a arvore1
+   89  == Arvore0, inserindo lista2 a direita, verifica lista
+   93  == Arvore0, inserindo lista0 a esquerda, verifica lista
+   97  == Arvore0, ir pai e ter pai
+  100  == Arvore0, Ir para no pai e não ter pai
+  103  == Ir para no esquerda, tem lista, verifica lista
+  107  == Arvore0, inserindo lista1 a direita e verificando
+  111  == Arvore0, indo para o pai e verificando lista
+  115  == Arvore0, indo para a direita novamente e verificando lista
+  119  == Destroi a arvore0
+!!!    0  Linha:   122  // fim 
+
+!!! Número de linhas lidas:         122
+!!! Número de casos de teste:        23
+!!! Número comandos corretos:        61
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

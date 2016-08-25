@@ -1,0 +1,160 @@
+// Script:    TesteArvore.script
+// Autor:     João Pedro Garcia, Gabriel Gomes, Gustavo Severo
+// Data:      28/mar/2016
+// Propósito: Arquivo de script para teste de arvore, 
+//            Testa a construção de uma árvore usando parâmetros literais
+//            Testa os casos de retorno e de manipulação da arvore
+//
+
+== Inicializar valores
+=declararparm   lista0  int 0
+=declararparm   lista1  int 1
+=declararparm   lista2  int 2
+
+=declararparm   arvore0  int 0
+=declararparm   arvore1  int 1
+=declararparm   arvore2  int 2
+=declararparm   arvore3  int 3
+=declararparm   arvore4  int 4
+
+=declararparm   char0    char  'a''
+=declararparm   char1    char  'b'
+=declararparm   char2    char  'c'
+=declararparm   char3    char  'd'
+
+=declararparm   OK             int  0
+=declararparm   ListaVazia     int  1
+=declararparm   FimLista       int  2
+=declararparm   NaoAchou       int  3
+=declararparm   FaltouMemoriaL int  4
+
+=declararparm   NaoCriouRaiz   int  1
+=declararparm   ErroEstrutura  int  2
+=declararparm   NaoEhFolha     int  3
+=declararparm   ArvNaoExiste   int  4
+=declararparm   ArvoreVazia    int  5
+=declararparm   NohEhRaiz      int  6
+=declararparm   NaoTemFilho    int  7
+=declararparm   FaltouMemoriaA int  8
+
+=declararparm   pNULL          int  0
+=declararparm   pNaoNULL       int  1
+
+== Criar a lista 0
+=criarlista      lista0 
+
+== Verificar ObterValor relativo a lista vazia
+=obtervalorelem  lista0   '?'     pNULL
+
+== Inserir elemento na lista0, atualmente vazia
+=inselemantes    lista0   char0   OK
+=obtervalorelem  lista0   char0   pNaoNULL
+
+== Inserir elemento na lista0 após primeiro
+=inselemapos     lista0   char1   OK
+=obtervalorelem  lista0   char1   pNaoNULL
+
+== Inserir elemento na lista0 antes do último
+=inselemantes    lista0   char2   OK
+=obtervalorelem  lista0   char2   pNaoNULL
+
+== Criar a lista1 com dois elementos
+=criarlista      lista1 
+=inselemapos     lista1   char0   OK
+=inselemapos     lista1   char1   OK
+
+== Criar uma lista2 com quatro elementos
+=criarlista      lista2 
+=inselemapos     lista2   char0   OK
+=inselemapos     lista2   char1   OK
+=inselemapos     lista2   char2   OK
+=inselemapos     lista2   char3   OK
+
+== Criar árvores 0, 1, 2, 3
+=criar 		arvore0  OK
+=criar 		arvore1  OK
+=criar 		arvore2  OK
+=criar      arvore3  OK
+
+== Arvore3, criar novamnete
+=criar      arvore3  OK
+
+== Arvore3, teste de arvore vazia
+=irdir      arvore3  ArvoreVazia
+
+== Arvore2, inserindo lista0 a direita, verifica lista
+=insdir     arvore2  lista0   OK
+=obter      arvore2  lista0   OK
+
+== Arvore2, inserindo lista1 a esquerda, verifica lista
+=insesq     arvore2  lista1   OK
+=obter      arvore2  lista1   OK
+
+== Arvore1, inserindo lista1 a direita, verifica lista
+=insdir     arvore1  lista1   OK
+=obter      arvore1  lista1   OK
+
+== Arvore1, inserindo lista2 a esquerda, verifica lista
+=insesq     arvore1  lista2   OK
+=obter      arvore1  lista2   OK
+
+== Arvore1, Destroi a arvore1
+=destruir   arvore1
+
+== Arvore0, inserindo lista2 a direita, verifica lista
+=insdir     arvore0  lista2   OK
+=obter 		arvore0  lista2   OK
+
+== Arvore0, inserindo lista0 a esquerda, verifica lista
+=insesq     arvore0  lista0   OK
+=obter 		arvore0  lista0   OK
+
+== Arvore0, ir pai e ter pai
+=irpai		arvore0  		  OK
+
+== Arvore0, Ir para no pai e não ter pai
+=irpai      arvore0 	      NohEhRaiz
+
+== Ir para no esquerda, tem lista, verifica lista
+=iresq      arvore0 		  OK
+=obter      arvore0	 lista0   OK
+
+== Arvore0, inserindo lista1 a direita e verificando
+=insdir     arvore0  lista1   OK
+=obter 		arvore0  lista1   OK
+
+== Arvore0, indo para o pai e verificando lista
+=irpai      arvore0           OK
+=obter 		arvore0  lista0   OK
+
+== Arvore0, indo para a direita novamente e verificando lista
+=irdir      arvore0           OK
+=obter 		arvore0  lista1   OK
+
+== Arvore0, ir direita e nao ter filho
+=irdir      arvore0 		  NaoTemFilho
+
+== Arvore0, ir esquerda e nao ter filho
+=irdir      arvore0 		  NaoTemFilho
+
+== Arvore0, ir esquerda e nao ter filho
+=irpai      arvore0 		  OK
+
+== Arvore0, inserir a esquerda
+=insesq     arvore0  lista2   OK
+
+== Arvore0, ir para o pai
+=irpai      arvore0           OK
+
+== Arvore0, inserir a esquerda ja tendo filho
+=insesq     arvore0  lista1   NaoEhFolha
+
+== Arvore0, ir para raiz
+=irpai      arvore0           OK
+=irpai      arvore0           NohEhRaiz
+
+== Destroi a arvore0
+=destruir   arvore0
+
+
+// fim

@@ -1,0 +1,27 @@
+Data	   Horas Trabalhadas,	 Tipo Tarefa,	 		Descrição da Tarefa Realizada
+15/03/16   1			 Estudar 	 		Aprender como fazer eInstalar arcabouco
+18/03/16   1			 Estudar	 		Ler modulos entender como cada um funcionava
+18/03/16   1			 projetar	 		Ler o codigo e anotar cada mudana que deveria ser feita
+21/03/16   1			 Estudar	 		Ler scripts na tentaiva de entender como funcionavam
+24/03/16   2			 Codificar Modulo		Fazer alteracoes tanto no modulo lista
+24/03/16   2			 Redirigir Script de teste	Inicialmente redigindo script de teste de lista
+24/03/16   1			 Realizar os Testes		Realizar os testes, utilizando char como entrada
+24/03/16   1			 Diagnosticar e corrigir	Encontrados erros na lerParm e modificar tal
+24/03/16   30min		 Realizar os Testes		Testes funcionaram bem
+25/03/16   3			 Codificar Modulo		Fazer alteracoes no modulo arvore e unicar com o lista ja funcional
+25/03/16   2			 Redirigir Script de teste	Script de teste de arvore usando char
+25/03/16   1			 Realizar os Testes		referentes ao modulo arvore ainda com char
+25/03/16   1			 Corrigir Erros			Tarefa rapida erros simples
+26/03/16   2			 Revisar projetos		Revisão de ambos os projetos
+26/03/16   2			 Codificar modulo		Troca conteudo de arvore de char para lista
+26/03/16   1			 Redirigir Script de teste	Agora com listas
+26/03/16   2			   Executavel			Criacao do construto
+26/03/16   1			 Realizar os Testes		Falhos, percebo que o erro esta no codigo e reverto o commit
+27/03/16   3			 Codificar modulo		Troca conteudo de arvore de char para lista
+27/03/16   5min			 Redirigir Script de teste	Agora com listas, estava quase pronto o do dia anterior
+27/03/16   20 min		 Realizar os Testes		Aparentemente tudo certo e funcionando de acordo com a proposta
+
+Notas pessoais:
+-Com a pratica redigir o script de teste e realizar os testes se tornou muito mais rapido
+-A produtividade do dia 26 não foi muito boa por conta de algum erro propagado no inicio que nao foi encontrado
+-Relativamente dificil de categorizar estudar pois conforme ia utilizando ia entendendo cada vez melhor

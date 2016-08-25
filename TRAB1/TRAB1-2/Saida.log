@@ -1,0 +1,56 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB1-2
+!!!      Script de teste:     TesteArvore.script
+
+!!!    0  Linha:     1  // Script:    TesteArvore.script 
+!!!    0  Linha:     2  // Autor:     Arndt von Staa 
+!!!    0  Linha:     3  // Data:      20/fev/2006 
+!!!    0  Linha:     4  // Propósito: Ilustrar arquivo de script, 
+!!!    0  Linha:     5  //            Testa a construção de uma árvore usando parâmetros literais 
+!!!    0  Linha:     6  //            Não verifica se as operações modificaram corretamente as referências 
+!!!    0  Linha:     7  //            Este script é muito superficial !!! 
+!!!    0  Linha:     8  // 
+   10  == Inicializar valores
+   44  == Criar a lista 0
+   47  == Verificar ObterValor relativo a lista vazia
+   50  == Inserir elemento na lista0, atualmente vazia
+   54  == Inserir elemento na lista0 após primeiro
+   58  == Inserir elemento na lista0 antes do último
+   62  == Criar a lista1 com dois elementos
+   67  == Criar uma lista2 com quatro elementos
+   74  == Criar árvores 0, 1, 2, 3
+   80  == Arvore3, criar novamnete
+   83  == Arvore3, teste de arvore vazia
+   86  == Arvore2, inserindo lista0 a direita, verifica lista
+   90  == Arvore2, inserindo lista1 a esquerda, verifica lista
+   94  == Arvore1, inserindo lista1 a direita, verifica lista
+   98  == Arvore1, inserindo lista2 a esquerda, verifica lista
+  102  == Arvore1, Destroi a arvore1
+  105  == Arvore0, inserindo lista2 a direita, verifica lista
+  109  == Arvore0, inserindo lista0 a esquerda, verifica lista
+  113  == Arvore0, ir pai e ter pai
+  116  == Arvore0, Ir para no pai e não ter pai
+  119  == Ir para no esquerda, tem lista, verifica lista
+  123  == Arvore0, inserindo lista1 a direita e verificando
+  127  == Arvore0, indo para o pai e verificando lista
+  131  == Arvore0, indo para a direita novamente e verificando lista
+  135  == Arvore0, ir direita e nao ter filho
+  138  == Arvore0, ir esquerda e nao ter filho
+  141  == Arvore0, ir esquerda e nao ter filho
+  144  == Arvore0, inserir a esquerda
+  147  == Arvore0, ir para o pai
+  150  == Arvore0, inserir a esquerda ja tendo filho
+  153  == Arvore0, ir para raiz
+  157  == Destroi a arvore0
+!!!    0  Linha:   161  // fim 
+
+!!! Número de linhas lidas:         161
+!!! Número de casos de teste:        32
+!!! Número comandos corretos:        81
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

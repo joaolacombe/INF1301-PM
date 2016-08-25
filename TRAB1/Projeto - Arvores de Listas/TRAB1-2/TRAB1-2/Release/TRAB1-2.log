@@ -1,0 +1,39 @@
+﻿Build started 28/03/2016 00:21:37.
+     1>Project "C:\Users\Joao\Desktop\Entregaveis\Projeto - Arvores de Listas\TRAB1-2\TRAB1-2\TRAB1-2.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\TRAB1-2.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\TRAB1-2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ARVORE.C LISTA.C TESTARV.C
+         ARVORE.C
+     1>ARVORE.C(106): warning C4028: formal parameter 1 different from declaration
+     1>ARVORE.C(127): warning C4028: formal parameter 1 different from declaration
+     1>ARVORE.C(145): warning C4028: formal parameter 1 different from declaration
+     1>ARVORE.C(196): warning C4028: formal parameter 1 different from declaration
+     1>ARVORE.C(245): warning C4028: formal parameter 1 different from declaration
+     1>ARVORE.C(272): warning C4028: formal parameter 1 different from declaration
+     1>ARVORE.C(300): warning C4028: formal parameter 1 different from declaration
+     1>ARVORE.C(328): warning C4028: formal parameter 1 different from declaration
+         LISTA.C
+         TESTARV.C
+     1>TESTARV.C(442): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>TESTARV.C(477): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joao\Desktop\Entregaveis\Projeto - Arvores de Listas\TRAB1-2\Release\TRAB1-2.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\TRAB1-2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Joao\Desktop\Entregaveis\Projeto - Arvores de Listas\TRAB1-2\Release\TRAB1-2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joao\Desktop\Entregaveis\Projeto - Arvores de Listas\TRAB1-2\Release\TRAB1-2.lib" /MACHINE:X86 Release\ARVORE.obj
+         Release\LISTA.obj
+         Release\TESTARV.obj
+         ArcaboucoTeste.lib
+         Generating code
+         Finished generating code
+         TRAB1-2.vcxproj -> C:\Users\Joao\Desktop\Entregaveis\Projeto - Arvores de Listas\TRAB1-2\Release\TRAB1-2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Joao\Desktop\Entregaveis\Projeto - Arvores de Listas\TRAB1-2\Release\TRAB1-2.exe;#1" /manifest "Release\TRAB1-2.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\TRAB1-2.unsuccessfulbuild".
+         Touching "Release\TRAB1-2.lastbuildstate".
+     1>Done Building Project "C:\Users\Joao\Desktop\Entregaveis\Projeto - Arvores de Listas\TRAB1-2\TRAB1-2\TRAB1-2.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.87

@@ -1,0 +1,60 @@
+————— Autores ————— 	
+
+ - Gabriel Gomes
+ - Gustavo Severo
+ - João Garcia
+
+—————  Descrição do Programa ————— 	
+
+Testa as funcoes do modulo arvore e do modulo lista de acordo com o script de teste.
+
+—————  Arquivos Fonte  ————— 
+
+- Módulos de implementação:	ARVORE.C
+							LISTA.C
+							TESTARV.C
+							TESTLIS.C
+				
+
+- Módulos de definição:		ARVORE.H
+							LISTA.H
+							LERPARM.H
+							GENERICO.H
+							TST_ESPC.H
+
+- Arcabouço de teste:		ArcaboucoTeste.lib
+
+
+- Arquivos de Script:		TesteArvore.script
+							TesteLista.script
+
+
+- Arquivos de Log:			Saida.log
+
+
+- Arquivo Executável:		TRAB1-1.EXE
+							TRAB1-2.EXE
+
+
+- Arquivos Bat:				ExecutarTeste.bat
+
+
+- Arquivos de Relatório:	RELATORIO-GabrielGomes.txt
+							RELATORIO-GustavoSevero.txt
+							RELATORIO-JoaoGarcia.txt
+
+
+- Arquivo Leiame:			LEIAME.TXT
+
+
+————— Modo de uso ————— 
+
+1. Extraia o conteudo do arquivo TRAB1.zip.
+
+Para executar os testes do módulo lista:
+- Na pasta TRAB1-1 dê dois cliques em ExecutarTeste.bat
+- Para visualizar a saida do teste abra o arquivo Saida.txt
+
+Para executar os testes do módulo árvore:
+- Na pasta TRAB1-2 dê dois cliques em ExecutarTeste.bat
+- Para visualizar a saida do teste abra o arquivo Saida.txt

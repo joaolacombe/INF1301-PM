@@ -1,0 +1,48 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB1-1
+!!!      Script de teste:     TesteLista.script
+
+!!!    0  Linha:     1  // Script:    TesteArvore.script 
+!!!    0  Linha:     2  // Autor:     Arndt von Staa 
+!!!    0  Linha:     3  // Data:      20/fev/2006 
+!!!    0  Linha:     4  // Propósito: Ilustrar arquivo de script, 
+!!!    0  Linha:     5  //            Testa a construção de uma árvore usando parâmetros literais 
+!!!    0  Linha:     6  //            Não verifica se as operações modificaram corretamente as referências 
+!!!    0  Linha:     7  //            Este script é muito superficial !!! 
+!!!    0  Linha:     8  // 
+   10  == Inicializar valores
+   31  == Criar a lista 0
+   34  == Verificar ObterValor relativo a lista vazia
+   37  == Inserir elemento em lista vazia
+   41  == Inserir elemento após primeiro
+   45  == Inserir elemento antes do último
+   49  == Excluir elemento do meio
+   53  == Excluir elemento do início
+   57  == Excluir elemento final, único
+   61  == Ver se a lista ficou vazia
+   64  == Destruir a lista
+   67  == Criar uma lista com dois elementos
+   72  == Esvaziar a lista e ver se ficou vazia
+   76  == Destruir a lista
+   79  == Criar uma lista com quatro elementos
+   86  == Verificar a lista de trás para diante
+   96  == Verificar a lista de frente para trás
+  106  == Verificar a lista andando demais de trás para diante
+  110  == Verificar a lista andando demais de frente para trás
+  114  == Destruir a lista
+  117  == Criar a lista 0
+  120  == Verificar ObterValor relativo a lista vazia
+  123  == Inserir elemento em lista vazia
+  127  == Inserir elemento após primeiro
+!!!    0  Linha:   131  // fim 
+
+!!! Número de linhas lidas:         131
+!!! Número de casos de teste:        24
+!!! Número comandos corretos:        69
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0
