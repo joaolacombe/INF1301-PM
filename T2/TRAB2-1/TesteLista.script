@@ -1,0 +1,149 @@
+// Script:    TesteLista.script
+// Autor:     João Pedro Garcia, Gabriel Gomes, Gustavo Severo
+// Data:      18/abr/2016
+// Propósito: Arquivo de script para teste de Lista, 
+//            Testa a construção de uma lista usando parâmetros literais
+//            Testa os casos de retorno e manipulaão de lista
+//			  As lista recebem como parametro caracteres simples
+
+== Inicializar valores
+=declararparm   lista0  int 0
+=declararparm   lista1  int 1
+=declararparm   lista2  int 2
+
+=declararparm   char0    char  'a'
+=declararparm   char1    char  'b'
+=declararparm   char2    char  'c'
+=declararparm   char3    char  'd'
+
+=declararparm   OK             int  0
+=declararparm   ListaVazia     int  1
+=declararparm   FimLista       int  2
+=declararparm   NaoAchou       int  3
+=declararparm   FaltouMemoria  int  4
+
+=declararparm   NaoTem         int  6
+
+=declararparm   pNULL          int  0
+=declararparm   pNaoNULL       int  1
+
+== Criar a lista 0
+=criarlista      lista0 
+
+== Excluir elemento atual
+=excluirelem	 lista0  ListaVazia
+
+== Verificar ObterValor relativo a lista vazia
+=obtervalorelem  lista0   '?'     ListaVazia
+
+== Inserir elemento em lista vazia
+=inselemantes    lista0   char0   OK
+=obtervalorelem  lista0   char0   pNaoNULL
+
+== Inserir elemento após primeiro
+=inselemapos     lista0   char1   OK
+=obtervalorelem  lista0   char1   pNaoNULL
+
+== Inserir elemento antes do último
+=inselemantes    lista0   char2   OK
+=obtervalorelem  lista0   char2   pNaoNULL
+
+== Excluir elemento do meio
+=obtervalorelem  lista0   char2   pNaoNULL
+=excluirelem     lista0           OK
+
+== Excluir elemento do início
+=obtervalorelem  lista0   char0   pNaoNULL
+=excluirelem     lista0           OK
+
+== Excluir elemento final, único 
+=obtervalorelem  lista0   char1   pNaoNULL
+=excluirelem     lista0           OK
+
+== Ver se a lista ficou vazia
+=obtervalorelem  lista0   '?'     ListaVazia
+
+== Destruir a lista
+=destruirlista   lista0
+
+== Criar uma lista com dois elementos
+=criarlista      lista1 
+=inselemapos     lista1   char0   OK
+=inselemapos     lista1   char1   OK
+
+== Esvaziar a lista e ver se ficou vazia
+=esvaziarlista   lista1
+=obtervalorelem  lista1   '?'     ListaVazia
+
+== Destruir a lista
+=destruirlista   lista1
+
+== Criar uma lista com quatro elementos
+=criarlista      lista2 
+=inselemapos     lista2   char0   OK
+=inselemapos     lista2   char1   OK
+=inselemapos     lista2   char2   OK
+=inselemapos     lista2   char3   OK
+
+== Verificar a lista de trás para diante
+=obtervalorelem  lista2   char3   pNaoNULL
+=avancarelem     lista2   -1     OK
+=obtervalorelem  lista2   char2   pNaoNULL
+=avancarelem     lista2   -1     OK
+=obtervalorelem  lista2   char1   pNaoNULL
+=avancarelem     lista2   -1     OK
+=obtervalorelem  lista2   char0   pNaoNULL
+=avancarelem     lista2   -1     FimLista
+
+== Verificar a lista de frente para trás
+=obtervalorelem  lista2   char0   pNaoNULL
+=avancarelem     lista2   1      OK
+=obtervalorelem  lista2   char1   pNaoNULL
+=avancarelem     lista2   1      OK
+=obtervalorelem  lista2   char2   pNaoNULL
+=avancarelem     lista2   1      OK
+=obtervalorelem  lista2   char3   pNaoNULL
+=avancarelem     lista2   1      FimLista
+
+== Verificar a lista andando demais de trás para diante
+=avancarelem     lista2   -10     FimLista
+=obtervalorelem  lista2   char0   pNaoNULL
+
+== Verificar a lista andando demais de frente para trás
+=avancarelem     lista2   10     FimLista
+=obtervalorelem  lista2   char3   pNaoNULL
+
+== Destruir a lista
+=destruirlista   lista2
+
+== Criar a lista 0
+=criarlista      lista0 
+
+== Verificar ObterValor relativo a lista vazia
+=obtervalorelem  lista0   '?'     ListaVazia
+
+== Inserir elemento em lista vazia
+=inselemantes    lista0   char0   OK
+=obtervalorelem  lista0   char0   pNaoNULL
+
+== Inserir elemento após primeiro
+=inselemapos     lista0   char1   OK
+=obtervalorelem  lista0   char1   pNaoNULL
+
+== Criar a lista 1
+=criarlista      lista1
+
+== Verificar ObterValor relativo a lista vazia
+=obtervalorelem  lista1   '?'     ListaVazia
+
+== Inserir elemento em lista vazia
+=inselemantes    lista1   char0   OK
+=obtervalorelem  lista1   char0   pNaoNULL
+
+== Inserir elemento após primeiro
+=inselemapos     lista1   char1   OK
+=obtervalorelem  lista1   char1   pNaoNULL
+
+
+
+// fim

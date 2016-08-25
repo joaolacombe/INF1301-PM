@@ -1,0 +1,124 @@
+// Script:    TestePilha.script
+// Autor:     João Pedro Garcia, Gabriel Gomes, Gustavo Severo
+// Data:      19/abr/2016
+// Propósito: Arquivo de script para teste de pilhas, 
+//            Testa a construção de uma ou mais pilhas
+//            Testa os casos de retorno e manipulaão das pilhas
+//			  As pilhas recebem como parametro caracteres
+
+==reset
+=resetteste
+
+== Inicializar valores
+=declararparm   pilha0  int 0
+=declararparm   pilha1  int 1
+=declararparm   pilha2  int 2
+
+=declararparm   char0   char 'a'
+=declararparm   char1   char 'b'
+=declararparm   char2   char 'c'
+=declararparm   char3   char 'd'
+
+=declararparm   OK             int  0
+=declararparm   PilhaNaoExiste int  1
+=declararparm   PilhaVazia     int  2
+=declararparm   FaltouMemoria  int  3
+
+=declararparm   pNULL          int  0
+=declararparm   pNaoNULL       int  1
+
+== Testar todas as condicionais de não existe com cada uma das funcoes
+=resetteste
+
+== Empihar b na pilha1 Nao existente
+=empilvalor         pilha1  char1  	PilhaNaoExiste
+
+== Desempihar valor da pilha1 não existente
+=desempilvalor      pilha1 			PilhaNaoExiste
+
+== Obter Valor Topo da pilha1 não existente
+=obtervalortopo  	pilha1  char1  	PilhaNaoExiste
+
+== Obter Tamanho da pilha 1 não existe
+=obtertamanho    	pilha1  1  		PilhaNaoExiste
+
+== Deletar pilha 1 não existente
+=destruirpilha  	pilha1		 	PilhaNaoExiste 
+
+
+
+== Testar todas as condicionais de pilha vazia com cada uma das funcoes
+=resetteste
+
+== Criar Pilha 1
+=criarpilha			pilha1
+
+== Desempihar valor da pilha1 não existente
+=desempilvalor      pilha1 			PilhaVazia
+
+== Obter Valor Topo da pilha1 não existente
+=obtervalortopo  	pilha1  char1  	PilhaVazia
+
+== Obter Tamanho da pilha 1 não existe
+=obtertamanho    	pilha1  0  		OK
+ 
+== Fim dos testes de pilha vazia destuir pilha 1
+=destruirpilha		pilha1			OK
+
+
+== Resetar testes para testar criacao e manipulacao de multiplas pilhas 
+=resetteste
+
+== Criar a Pilhas 0, 1, 2
+=criarpilha     	pilha0
+=criarpilha      	pilha1
+=criarpilha      	pilha2
+
+== Empihar b na 1
+=empilvalor      	pilha1  char1  	OK
+
+== Obter valor correto na pilha 1
+=obtervalortopo  	pilha1  char1  	OK
+
+== Obter tamanho da pilha 1
+=obtertamanho    	pilha1  1  		OK
+
+== Empihar c na 1
+=empilvalor      	pilha1  char2  	OK
+
+== Empihar a na 1
+=empilvalor      	pilha1  char0  	OK
+
+== Empihar a na 0
+=empilvalor      	pilha0  char0  	OK
+
+== Empihar b na 0
+=empilvalor      	pilha0  char1  	OK
+
+== Empihar a na 2
+=empilvalor      	pilha2  char0  	OK
+
+== Empihar c na 2
+=empilvalor      	pilha2  char2  	OK
+
+== Obter valor correto na pilha 0
+=obtervalortopo  	pilha0  char1  	OK
+
+== Obter valor correto na pilha 1
+=obtervalortopo  	pilha1  char0  	OK
+
+== Obter valor correto na pilha 2
+=obtervalortopo  	pilha2  char2  	OK
+
+== Desempilhar todos os primeiros
+=desempilvalor		pilha0			OK
+=desempilvalor		pilha1			OK
+=desempilvalor		pilha2			OK
+
+== Obter valor do topo de todas
+=obtervalortopo  	pilha0  char0  	OK
+=obtervalortopo  	pilha1  char2  	OK
+=obtervalortopo  	pilha2  char0  	OK
+
+
+// fim

@@ -1,0 +1,144 @@
+// Script:    TesteMatriz.script
+// Autor:     João Pedro Garcia, Gabriel Gomes, Gustavo Severo
+// Data:      20/abr/2016
+// Propósito: Arquivo de script para teste de Matriz de pilhas, 
+//            Testa a construção de uma matriz
+//            Testa os casos de retorno e manipulaão da matriz
+//			  As matriz recebem como parametro pilhas
+
+== Inicializar valores
+
+=declararparm   pilha0	int  0
+=declararparm   pilha1	int  1
+=declararparm   pilha2	int  2
+=declararparm   pilha3	int  3
+=declararparm   pilha4	int  4
+=declararparm   pilha5	int  5
+=declararparm   pilha6	int  6
+=declararparm   pilha7	int  7
+=declararparm   pilha8	int  8
+=declararparm   pilha9  int  9
+
+=declararparm   OK             			int  0
+=declararparm   ErroEstrutura  			int  1
+=declararparm   MatrizNaoExiste 		int  2
+=declararparm   MatrizVazia     		int  3
+=declararparm   CoordenadaInexistente   int  4
+=declararparm   FaltouMemoria		    int  5
+
+=declararparm   Norte            		int  0
+=declararparm   Nordeste	  			int  1
+=declararparm   Leste			 		int  2
+=declararparm   Sudeste		     		int  3
+=declararparm   Sul 			   		int  4
+=declararparm   Sudoeste			    int  5
+=declararparm   Oeste		     		int  6
+=declararparm   Noroeste 			   	int  7
+
+=declararparm   pNULL          int  0
+=declararparm   pNaoNULL       int  1
+
+== Criando pilhas que serao inseridas na matriz
+=resetpilhas
+
+== Reset na Matriz para testar Erro Estrutura
+=resetteste
+
+== Criar Matriz Vazia
+=criarmatriz 		0	0	ErroEstrutura
+
+== Reset na Matriz para testar MatrizVazia
+=resetteste
+
+== Criar Matriz 1x1
+=criarmatriz 		1	1	OK
+
+== Remover Linha
+=remlinha					OK
+
+== Remover Coluna
+=remcoluna						MatrizVazia
+
+== Inserir pilha0 no slot 1/1 na matriz vazia
+=inserirvalor		pilha0 		MatrizVazia
+
+== Obter pilha do slot atual
+=obterpilha			pilha0		MatrizVazia
+
+== Ir para Leste
+=irpara				Leste		MatrizVazia
+
+== Ir para coordenada 0x0
+=irparacoord 	3		3		MatrizVazia
+
+== Reset na Matriz para testar Matriz Nao existe
+=resetteste
+
+== Destruir a matriz nao existente
+=destruirmatriz 			MatrizNaoExiste
+
+== Add Linha da matriz nao existente
+=addlinha					MatrizNaoExiste
+
+== Add Coluna da matriz nao existente
+=addcoluna					MatrizNaoExiste
+
+== remove linha da matriz nao existente
+=remlinha					MatrizNaoExiste
+
+== remove coluna da matriz nao existente
+=remcoluna					MatrizNaoExiste
+
+== Inserir pilha0 no slot 1/1 na matriz nao existente
+=inserirvalor		pilha0 		MatrizNaoExiste
+
+== Obter pilha do slot atual
+=obterpilha			pilha0		MatrizNaoExiste
+
+== Ir para coordenada 0x0
+=irparacoord 	3		3		MatrizNaoExiste
+
+== Reset na Matriz para testar funcoes com OK
+=resetteste
+
+== Criar a matriz
+=criarmatriz 		3	3	OK
+
+== Destruir a matriz
+=destruirmatriz 	OK
+
+== Criar a matriz
+=criarmatriz 		3	3	OK
+
+== Inserir pilha0 no slot 1/1
+=inserirvalor		pilha1 		OK
+
+== Obter pilha do slot atual
+=obterpilha			pilha1		OK
+
+== Add Linha a matriz
+=addlinha						OK
+
+== Add Linha a matriz
+=addcoluna						OK
+
+== remove Linha a matriz
+=remlinha						OK
+
+== remove Linha a matriz
+=remcoluna						OK
+
+== Ir para Leste Apos remocao passa a o ultimo elemento do leste, esperado coordInex
+=irpara				Leste		CoordenadaInexistente
+
+== Ir para coordenada 0x0
+=irparacoord 	0		0		OK
+
+== Ir para coordenada 0x0
+=irparacoord 	2		2		OK
+
+== Ir para coordenada 0x0
+=irparacoord 	3		3		CoordenadaInexistente
+
+
+// fim

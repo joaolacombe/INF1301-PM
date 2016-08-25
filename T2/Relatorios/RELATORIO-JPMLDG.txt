@@ -1,0 +1,21 @@
+Data	   Horas Trabalhadas,	 Tipo Tarefa,	 		Descrição da Tarefa Realizada
+04/04/16   2h30m		 Projetar			Decidir em conjunto com o grupo a estrutura e definir arquitetura
+10/04/16   1h			 Estudar 	 		Estudar Logica da matriz de Listas
+12/04/16   145min		 Projetar			Criar Projetos e gerar executaveis para envio e teste
+18/04/16   1			 Estudar	 		Ler scripts na tentaiva de entender como funcionavam
+18/04/16   2			 Codificar Modulo		Fazer alteracoes tanto no modulo lista
+18/04/16   2			 Redirigir Script de teste	Inicialmente redigindo script de teste de lista
+18/04/16   1			 Realizar os Testes		Realizar os testes, utilizando char como entrada
+18/04/16   1			 Diagnosticar e corrigir	Encontrados erros na funcao de criacao para tornar generica e modificar tal
+18/04/16   30min		 Realizar os Testes		Testes funcionaram bem
+19/03/16   30min		 Codificar Modulo		Fazer alteracoes no modulo pilha e unificar com o lista ja funcional
+19/03/16   5			 Codificar Modulo		Codificar Modulo TestePilha
+19/03/16   2			 Redirigir Script de teste	Script de teste de pilha usando char
+19/03/16   1			 Realizar os Testes		referentes ao modulo pilha
+19/03/16   1			 Corrigir Erros			Tarefa rapida erros simples
+19/03/16   2			 Revisar projetos		Revisão de ambos os projetos
+20/03/16   5			 Codificar modulo		Modulo de teste de matriz
+20/03/16   2			 Redirigir Script de teste	Script de teste de matriz
+20/03/16   3			 Realizar os Testes		referentes ao modulo matriz
+20/03/16   1			 Redirigir Script de teste	Agora de uma funcao que faltava
+20/03/16   1			 Executavel			Criacao do construto

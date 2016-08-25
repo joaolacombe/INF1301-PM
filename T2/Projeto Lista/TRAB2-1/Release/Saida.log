@@ -1,0 +1,52 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB2-1
+!!!      Script de teste:     TesteLista.script
+
+!!!    0  Linha:     1  // Script:    TesteArvore.script 
+!!!    0  Linha:     2  // Autor:     João Pedro Garcia, Gabriel Gomes, Gustavo Severo 
+!!!    0  Linha:     3  // Data:      28/mar/2016 
+!!!    0  Linha:     4  // Propósito: Arquivo de script para teste de Lista, 
+!!!    0  Linha:     5  //            Testa a construção de uma lista usando parâmetros literais 
+!!!    0  Linha:     6  //            Testa os casos de retorno e manipulaão de lista 
+!!!    0  Linha:     7  //			  As lista recebem como parametro caracteres simples 
+    9  == Inicializar valores
+   30  == Criar a lista 0
+   33  == Excluir elemento atual
+   36  == Verificar ObterValor relativo a lista vazia
+   39  == Inserir elemento em lista vazia
+   43  == Inserir elemento após primeiro
+   47  == Inserir elemento antes do último
+   51  == Excluir elemento do meio
+   55  == Excluir elemento do início
+   59  == Excluir elemento final, único
+   63  == Ver se a lista ficou vazia
+   66  == Destruir a lista
+   69  == Criar uma lista com dois elementos
+   74  == Esvaziar a lista e ver se ficou vazia
+   78  == Destruir a lista
+   81  == Criar uma lista com quatro elementos
+   88  == Verificar a lista de trás para diante
+   98  == Verificar a lista de frente para trás
+  108  == Verificar a lista andando demais de trás para diante
+  112  == Verificar a lista andando demais de frente para trás
+  116  == Destruir a lista
+  119  == Criar a lista 0
+  122  == Verificar ObterValor relativo a lista vazia
+  125  == Inserir elemento em lista vazia
+  129  == Inserir elemento após primeiro
+  133  == Criar a lista 1
+  136  == Verificar ObterValor relativo a lista vazia
+  139  == Inserir elemento em lista vazia
+  143  == Inserir elemento após primeiro
+!!!    0  Linha:   149  // fim 
+
+!!! Número de linhas lidas:         149
+!!! Número de casos de teste:        29
+!!! Número comandos corretos:        76
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

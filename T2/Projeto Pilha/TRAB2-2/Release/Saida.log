@@ -1,0 +1,51 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB2-2
+!!!      Script de teste:     TestePilha.script
+
+!!!    0  Linha:     1  // Script:    TestePilha.script 
+!!!    0  Linha:     2  // Autor:     Jo 
+!!!    0  Linha:     3  // Data:      02/abr/2008 
+!!!    0  Linha:     4  // Propósito: Testar superficialmente o módulo lista genérica duplamente encadeada 
+!!!    0  Linha:     5  // 
+    7  ==reset
+   10  == Inicializar valores
+   28  == Testar todas as condicionais de não existe com cada uma das funcoes
+   31  == Empihar b na pilha1 Nao existente
+   34  == Desempihar valor da pilha1 não existente
+   37  == Obter Valor Topo da pilha1 não existente
+   40  == Obter Tamanho da pilha 1 não existe
+   43  == Deletar pilha 1 não existente
+   48  == Testar todas as condicionais de pilha vazia com cada uma das funcoes
+   51  == Criar Pilha 1
+   54  == Desempihar valor da pilha1 não existente
+   57  == Obter Valor Topo da pilha1 não existente
+   60  == Obter Tamanho da pilha 1 não existe
+   63  == Fim dos testes de pilha vazia destuir pilha 1
+   67  == Resetar testes para testar criacao e manipulacao de multiplas pilhas
+   70  == Criar a Pilhas 0, 1, 2
+   75  == Empihar b na 1
+   78  == Obter valor correto na pilha 1
+   81  == Obter tamanho da pilha 1
+   84  == Empihar c na 1
+   87  == Empihar a na 1
+   90  == Empihar a na 0
+   93  == Empihar b na 0
+   96  == Empihar a na 2
+   99  == Empihar c na 2
+  102  == Obter valor correto na pilha 0
+  105  == Obter valor correto na pilha 1
+  108  == Obter valor correto na pilha 2
+  111  == Desempilhar todos os primeiros
+  116  == Obter valor do topo de todas
+!!!    0  Linha:   122  // fim 
+
+!!! Número de linhas lidas:         122
+!!! Número de casos de teste:        30
+!!! Número comandos corretos:        48
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

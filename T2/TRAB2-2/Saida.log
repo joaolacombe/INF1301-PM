@@ -1,0 +1,53 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB2-2
+!!!      Script de teste:     TestePilha.script
+
+!!!    0  Linha:     1  // Script:    TestePilha.script 
+!!!    0  Linha:     2  // Autor:     João Pedro Garcia, Gabriel Gomes, Gustavo Severo 
+!!!    0  Linha:     3  // Data:      19/abr/2016 
+!!!    0  Linha:     4  // Propósito: Arquivo de script para teste de pilhas, 
+!!!    0  Linha:     5  //            Testa a construção de uma ou mais pilhas 
+!!!    0  Linha:     6  //            Testa os casos de retorno e manipulaão das pilhas 
+!!!    0  Linha:     7  //			  As pilhas recebem como parametro caracteres 
+    9  ==reset
+   12  == Inicializar valores
+   30  == Testar todas as condicionais de não existe com cada uma das funcoes
+   33  == Empihar b na pilha1 Nao existente
+   36  == Desempihar valor da pilha1 não existente
+   39  == Obter Valor Topo da pilha1 não existente
+   42  == Obter Tamanho da pilha 1 não existe
+   45  == Deletar pilha 1 não existente
+   50  == Testar todas as condicionais de pilha vazia com cada uma das funcoes
+   53  == Criar Pilha 1
+   56  == Desempihar valor da pilha1 não existente
+   59  == Obter Valor Topo da pilha1 não existente
+   62  == Obter Tamanho da pilha 1 não existe
+   65  == Fim dos testes de pilha vazia destuir pilha 1
+   69  == Resetar testes para testar criacao e manipulacao de multiplas pilhas
+   72  == Criar a Pilhas 0, 1, 2
+   77  == Empihar b na 1
+   80  == Obter valor correto na pilha 1
+   83  == Obter tamanho da pilha 1
+   86  == Empihar c na 1
+   89  == Empihar a na 1
+   92  == Empihar a na 0
+   95  == Empihar b na 0
+   98  == Empihar a na 2
+  101  == Empihar c na 2
+  104  == Obter valor correto na pilha 0
+  107  == Obter valor correto na pilha 1
+  110  == Obter valor correto na pilha 2
+  113  == Desempilhar todos os primeiros
+  118  == Obter valor do topo de todas
+!!!    0  Linha:   124  // fim 
+
+!!! Número de linhas lidas:         124
+!!! Número de casos de teste:        30
+!!! Número comandos corretos:        48
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

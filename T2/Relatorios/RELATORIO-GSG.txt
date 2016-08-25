@@ -1,0 +1,16 @@
+Data            Horas Trabalhadas       Tipo Tarefa                                                                                     Descrição da Tarefa Realizada
+01/04/2016	2 horas	                Estudar												Estudando estrategias de desenvolvimento do modulo matriz.
+02/04/2016	1 horas	                Estudar												Estudando estrategias de desenvolvimento do modulo pilha.
+03/04/2016	3 horas	                Definir Estrutura										Definir e desenhar a estrutura do trabalho.
+08/04/2016	1 hora e 30 minutos	Criar Exemplo de Estrutura									Criar e desenhar exemplo da estrutura definida.
+15/04/2016	2 horas   		Definir funcoes											Definir funcoes de acesso do modulo pilha, incluindo parametros e possibilidades de retorno.
+15/04/2016	3 horas			Definir funcoes											Definir funcoes de acesso do modulo matriz, incluindo parametros e possibilidades de retorno.
+16/04/2016	6 horas			Codificar Modulo										Codificando PILHA.C.
+17/04/2016	8 horas   		Codificar Modulo										Codificando MATRIZ.C.
+17/04/2016	2 horaS	 		Documentar Código do Módulo                                                                     Documentar codigo do PILHA.H e PILHA.C.
+17/04/2016	3 horas			Documentar Codigo do Módulo									Documentar codigo do MATRIZ.H e MATRIZ.C.
+18/04/2016	1 hora			Revisar Código do Módulo									Revisando PILHA.C. 
+18/04/2016	2 hora			Revisar Codigo do Modulo						                        Revisando MATRIZ.C.
+20/04/2016	1 hora			Corrigir Erros do Modulo						                        Corrigir erros do modulo PILHA.C encontrados nos teste.
+20/04/2016	2 horas			Corrigir Erros do Modulo							                Corrigir erros do modulo MATRIZ.C encontrados nos teste.
+20/04/2016	1 hora e 30 minutos	Revisar Documentacao do Trabalho							        Revisar documentacao do trabalhor e indicar erros especificos.

@@ -1,0 +1,37 @@
+﻿Build started 12/04/2016 14:07:48.
+     1>Project "C:\Users\Joao\Documents\GitHub\INF1301-T2\Projeto Matriz de Pilhas\TRAB2-3\TRAB2-3\TRAB2-3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TRAB2-3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt LISTA.C TESTMATRIZ.C
+         TESTMATRIZ.C
+     1>c:\users\joao\documents\github\inf1301-t2\projeto matriz de pilhas\trab2-3\trab2-3\testmatriz.c(209): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\joao\documents\github\inf1301-t2\projeto matriz de pilhas\trab2-3\trab2-3\testmatriz.c(244): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         LISTA.C
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TRAB2-3.exe.embed.manifest.res" Debug\TRAB2-3_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joao\Documents\GitHub\INF1301-T2\Projeto Matriz de Pilhas\TRAB2-3\Debug\TRAB2-3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TRAB2-3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Joao\Documents\GitHub\INF1301-T2\Projeto Matriz de Pilhas\TRAB2-3\Debug\TRAB2-3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joao\Documents\GitHub\INF1301-T2\Projeto Matriz de Pilhas\TRAB2-3\Debug\TRAB2-3.lib" /MACHINE:X86 "Debug\TRAB2-3.exe.embed.manifest.res"
+         Debug\LISTA.obj
+         Debug\TESTMATRIZ.obj
+         ArcaboucoTeste.lib
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\TRAB2-3.exe.embed.manifest" /manifest "Debug\TRAB2-3.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TRAB2-3.exe.embed.manifest.res" Debug\TRAB2-3_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joao\Documents\GitHub\INF1301-T2\Projeto Matriz de Pilhas\TRAB2-3\Debug\TRAB2-3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TRAB2-3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Joao\Documents\GitHub\INF1301-T2\Projeto Matriz de Pilhas\TRAB2-3\Debug\TRAB2-3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joao\Documents\GitHub\INF1301-T2\Projeto Matriz de Pilhas\TRAB2-3\Debug\TRAB2-3.lib" /MACHINE:X86 "Debug\TRAB2-3.exe.embed.manifest.res"
+         Debug\LISTA.obj
+         Debug\TESTMATRIZ.obj
+         ArcaboucoTeste.lib
+         TRAB2-3.vcxproj -> C:\Users\Joao\Documents\GitHub\INF1301-T2\Projeto Matriz de Pilhas\TRAB2-3\Debug\TRAB2-3.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\TRAB2-3.unsuccessfulbuild".
+         Touching "Debug\TRAB2-3.lastbuildstate".
+     1>Done Building Project "C:\Users\Joao\Documents\GitHub\INF1301-T2\Projeto Matriz de Pilhas\TRAB2-3\TRAB2-3\TRAB2-3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.19

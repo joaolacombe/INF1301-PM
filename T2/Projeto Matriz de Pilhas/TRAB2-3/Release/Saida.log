@@ -1,0 +1,58 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB2-3
+!!!      Script de teste:     TesteMatriz.script
+
+!!!    0  Linha:     1  // Script:    TesteMatriz.script 
+!!!    0  Linha:     2  // Autor:     João Pedro Garcia, Gabriel Gomes, Gustavo Severo 
+!!!    0  Linha:     3  // Data:      20/abr/2016 
+!!!    0  Linha:     4  // Propósito: Arquivo de script para teste de Matriz de pilhas, 
+!!!    0  Linha:     5  //            Testa a construção de uma matriz 
+!!!    0  Linha:     6  //            Testa os casos de retorno e manipulaão da matriz 
+!!!    0  Linha:     7  //			  As matriz recebem como parametro pilhas 
+    9  == Inicializar valores
+   41  == Criando pilhas que serao inseridas na matriz
+   44  == Reset na Matriz para testar Erro Estrutura
+   47  == Criar Matriz Vazia
+   50  == Reset na Matriz para testar MatrizVazia
+   53  == Criar Matriz 1x1
+   56  == Remover Linha
+   59  == Remover Coluna
+   62  == Inserir pilha0 no slot 1/1 na matriz vazia
+   65  == Obter pilha do slot atual
+   68  == Ir para Leste
+   71  == Ir para coordenada 0x0
+   74  == Reset na Matriz para testar Matriz Nao existe
+   77  == Destruir a matriz nao existente
+   80  == Add Linha da matriz nao existente
+   83  == Add Coluna da matriz nao existente
+   86  == remove linha da matriz nao existente
+   89  == remove coluna da matriz nao existente
+   92  == Inserir pilha0 no slot 1/1 na matriz nao existente
+   95  == Obter pilha do slot atual
+   98  == Ir para coordenada 0x0
+  101  == Reset na Matriz para testar funcoes com OK
+  104  == Criar a matriz
+  107  == Destruir a matriz
+  110  == Criar a matriz
+  113  == Inserir pilha0 no slot 1/1
+  116  == Obter pilha do slot atual
+  119  == Add Linha a matriz
+  122  == Add Linha a matriz
+  125  == remove Linha a matriz
+  128  == remove Linha a matriz
+  131  == Ir para Leste Apos remocao passa a o ultimo elemento do leste, esperado coordInex
+  134  == Ir para coordenada 0x0
+  137  == Ir para coordenada 0x0
+  140  == Ir para coordenada 0x0
+!!!    0  Linha:   144  // fim 
+
+!!! Número de linhas lidas:         144
+!!! Número de casos de teste:        35
+!!! Número comandos corretos:        60
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

@@ -1,0 +1,8 @@
+Data            Horas Trabalhadas       Tipo Tarefa                                DescriÁ„o da Tarefa Realizada
+01/04/2016	1 hora	                Estudar												Revisão da matéria dada em aula
+02/04/2016	2 horas	                Estudar												Estudo sobre planejamento.
+03/04/2016	3 horas	                Definir Estrutura									Definir e desenhar a estrutura do trabalho.
+08/04/2016	2 horas e 30 minutos	Criar Exemplo de Estrutura							Criar e desenhar exemplo da estrutura definida.
+16/04/2016	4 horas			        Documentação do programa    					        Documentação do programa, modelo, assertivas.
+18/04/2016	5 horas			        Documentação do programa 							Documentação do programa, modelo, assertivas.
+20/04/2016	3 horas		            Revisar Documentacao do Trabalho					Revisão da documentação do programa, modelo, assertivas.

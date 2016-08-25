@@ -1,0 +1,77 @@
+————— Autores ————— 	
+
+ - Gabriel Gomes
+ - Gustavo Severo
+ - João Garcia
+
+—————  Descrição do Programa ————— 	
+
+Testa as funcoes do modulo lista, modulo pilha e do modulo matriz de acordo com o script de teste.
+
+
+—————  Arquivos Fonte  ————— 
+
+- Módulos de implementação:	LISTA.C
+				MATRIZ.C
+				PILHA.C
+				TESTMAT.C
+				TESTPIL.C
+				TESTLIS.C
+				
+
+- Módulos de definição:	LISTA.H
+				MATRIZ.H
+				PILHA.H
+				LERPARM.H
+				GENERICO.H
+				TST_ESPC.H
+
+- Arcabouço de teste:		ArcaboucoTeste.lib
+
+
+- Arquivos de Script:		TRAB2-1/TesteLista.script
+				TRAB2-2/TestePilha.script
+				TRAB2-3/TesteMatriz.script
+
+
+- Arquivos de Log:		TRAB2-1/Saida.log
+				TRAB2-2/Saida.log
+				TRAB2-3/Saida.log
+
+
+- Arquivo Executável:		TRAB2-1/TRAB2-1.exe
+				TRAB2-2/TRAB2-2.exe
+				TRAB2-3/TRAB2-3.exe
+
+
+- Arquivos Bat:			TRAB2-1/ExecutarTeste.bat
+				TRAB2-2/ExecutarTeste.bat
+				TRAB2-3/ExecutarTeste.bat
+
+
+- Arquivos de Relatório:	Relatorios/RELATORIO-GSB.txt
+				Relatorios/RELATORIO-GSG.txt
+				Relatorios/RELATORIO-JPMLDG.txt
+
+
+- Arquivo Leiame:		LEIAME.TXT
+
+
+- Arquivo de documentação:    Documentação.pdf
+
+
+————— Modo de uso ————— 
+
+1. Extraia o conteudo do arquivo TRAB2.zip.
+
+Para executar os testes do módulo lista:
+- Na pasta TRAB2-1 dê dois cliques em ExecutarTeste.bat
+- Para visualizar a saida do teste abra o arquivo Saida.txt
+
+Para executar os testes do módulo pilha:
+- Na pasta TRAB2-2 dê dois cliques em ExecutarTeste.bat
+- Para visualizar a saida do teste abra o arquivo Saida.txt
+
+Para executar os testes do módulo matriz:
+- Na pasta TRAB2-3 dê dois cliques em ExecutarTeste.bat
+- Para visualizar a saida do teste abra o arquivo Saida.txt
