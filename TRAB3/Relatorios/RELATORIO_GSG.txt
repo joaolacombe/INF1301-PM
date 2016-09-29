@@ -1,0 +1,12 @@
+Data            Horas Trabalhadas       Tipo Tarefa                                                                                     Descrição da Tarefa Realizada
+30/04/2016	2 horas	                Estudar Regras do Jogo										Estudo das regras e funcionamento do Paciencia Mahjong
+01/05/2016	2 horas	                Definir Estrutura										Definindo organização e arquitetura dos módulos já existentes com o módulo jogo.
+01/05/2016	1 hora e 30 minutos	Criar Exemplo de Estrutura									Criar e desenhar exemplo da estrutura definida.
+07/05/2016	2 horas   		Definir funcoes											Definir funcoes do modulo jogo, incluindo parametros e possibilidades de retorno.
+07/05/2016	6 horas			Codificar Modulo										Codificando JOGO.C.
+08/05/2016	8 horas   		Codificar Modulo										Codificando JOGO.C.
+14/05/2016	3 horaS	 		Documentar Código do Módulo                                                                     Documentar codigo do JOGO.C.
+15/05/2016	3 horas			Documentar Codigo do Módulo									Documentar codigo do JOGO.C.
+15/05/2016	2 hora			Revisar Código do Módulo									Revisando JOGO.C. 
+16/05/2016	2 hora			Corrigir Erros do Modulo						                        Corrigir erros do modulo JOGO.C encontrados nos teste.
+16/05/2016	1 hora e 30 minutos	Revisar Documentacao do Trabalho							        Revisar documentacao do trabalho e indicar erros especificos.

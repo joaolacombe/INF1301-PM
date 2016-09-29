@@ -1,0 +1,9 @@
+Data            Horas Trabalhadas       Tipo Tarefa                                DescriÁ„o da Tarefa Realizada
+10/05/2016	 30 minutos	          Migração de repositório			Criado o novo repositório e migração dos arquivos
+14/05/2016	 2 horas	          Documentação					Atualização da documentação
+17/05/2016      3 horas                 Estudos					Estudos sobre argumentação de corretude (AC)
+18/05/2016      1 hora			  Documentação					Assertivas de entrada e saída no .h
+18/05/2016      3 horas                 Documentação					Inicio da AC das repetições do jogo.c
+19/05/2016      2 horas                 Manual					Criação do manual de usuário do jogo
+20/05/2016      5 horas                 Documentação  				Finalização da AC das repetições no jogo.c
+20/05/2016      30 minutos              Documentação					Arquivo Leia-me

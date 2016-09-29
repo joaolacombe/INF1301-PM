@@ -1,0 +1,11 @@
+Data	   Horas Trabalhadas,	 Tipo Tarefa,	 		Descrição da Tarefa Realizada
+12/05/16   1h			 Projetar			Decidir em conjunto com o grupo a estrutura e definir a interface
+12/05/16   1h45min		 Projetar			Porjetas as funções necessárias para o jogo
+12/05/16   1			 Estudar	 		Pensar na melhor maneira de fazer a logica de cada função
+13/05/16   4			 Codificar Modulo		Criar funções de criação de tabuleiro/baralho e interface
+14/05/16   1			 Diagnosticar e corrigir	Encontrados erros na funcao de impressão do tabuleiro
+15/05/16   30min		 Revisar			Revisar funções feitas pelos clegas
+15/05/16   20min		 Testar				Testando jogo remoção de peças e feedback de erros
+19/05/16   1h30min		 Diagnosticar e corrigir	Fazer alteracoes nas funcões dos colegas de trabalho
+20/05/16   20min		 Testar				Testando jogo vitória e derrota
+20/05/16   2h			 Diagnosticar e corrigir	Corrigido erro da função de checar status do jogo vitoria e derrota.

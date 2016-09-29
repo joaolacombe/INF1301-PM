@@ -1,0 +1,48 @@
+————— Autores ————— 	
+
+ - Gabriel Gomes
+ - Gustavo Severo
+ - João Garcia
+
+—————  Descrição do Programa ————— 	
+
+Jogo Paciência MahJong criado com modulo lista, modulo pilha e modulo matriz.
+
+
+—————  Arquivos Fonte  ————— 
+
+- Módulos de implementação:	LISTA.C
+				MATRIZ.C
+				PILHA.C
+				JOGO.C
+				
+				
+
+- Módulos de definição:	LISTA.H
+				MATRIZ.H
+				PILHA.H
+
+
+- Arquivo Executável:		TRAB3-1/TRAB3-1.exe
+
+
+- Arquivos de Relatório:	Relatorios/RELATORIO-GSB.txt
+				Relatorios/RELATORIO-GSG.txt
+				Relatorios/RELATORIO-JPMLDG.txt
+
+
+- Arquivo Leiame:		LEIAME.TXT
+
+
+- Arquivo de documentação:    Documentação-Programa.pdf
+			        Documentação-MatrizDePilhas.pdf
+
+- Arquivo de Manual		Manual-do-Usuário.pdf
+
+
+————— Modo de uso ————— 
+
+1. Extraia o conteudo do arquivo TRAB3.zip.
+
+Para executar o jogo:
+- Na pasta TRAB3-1 execute TRAB3-1.exe
